@@ -32,4 +32,3 @@ In this lesson we will learn how to display your state and props in your html.
 <h1>Welcome Best</h1>
 <p>Todays date is 8/19/2019</p>
 ```
-
