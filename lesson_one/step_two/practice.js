@@ -1,18 +1,46 @@
-class App extends React.Component {
+function Welcome(props) {
+  return <h1>Welcome {props.name} to Ossystem IT Academy</h1>;
+}
+
+// Create your FormattedDate component here
+
+class Clock extends React.Component {
   constructor(props) {
     super(props)
 
     this.state = {
-      date: new Date().toLocaleDateString()
+      date: new Date(),
     }
   }
 
+  componentDidMount() {
+    this.timerID = setInterval(
+      () => this.tick(),
+      1000
+    );
+  }
+
+  componentWillUnmount() {
+    clearInterval(this.timerID);
+  }
+
+  tick() {
+    this.setState({
+      date: new Date(),
+    })
+  }
+
   render() {
-    return <h2>Welcome, {this.props.name}. Todays date is {this.state.date}</h2>;
+    return (
+      <div>
+        <Welcome name="Best"/>
+        <p>The time now is {this.state.date.toLocaleTimeString()}</p>
+      </div>
+    )
   }
 }
 
 ReactDOM.render(
-  <App name="Bro"/>,
-  document.getElementById('practice')
+  <Clock />,
+  document.getElementById('root')
 );

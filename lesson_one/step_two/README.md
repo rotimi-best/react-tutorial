@@ -48,3 +48,34 @@
       clearInterval(this.timerID); // сбрасывай таймер при каждом «размонтировании»
     }
     ```
+
+## Rules
+
+1. Вы не должны вызывать setState() в constructor(). Если вам нужно внутреннее состояние, присвойте начальное состояние this.state прямо в конструкторе.
+
+    ```javascript
+    constructor(props) {
+      super(props)
+      // Неправильно - Не вызывайте здесь this.setState()!
+      this.setState({ date: new Date() })
+
+      // Правильно - Конструктор — это единственное место, где вы можете присвоить значение this.state напрямую.
+      this.state = { date: new Date() }
+    }
+    ```
+
+2. Не копируйте пропсы в состояние! Проблема в том, что это излишне и приводит к багам (обновления в пропе `color` не будут зафиксированы в состоянии). Вместо этого используйте `this.props.color`. Используйте данный подход, если вы намеренно хотите игнорировать обновления пропсов. В таком случае лучше переименовать проп в initialColor или defaultColor.
+
+    ```javascript
+    constructor(props) {
+      super(props);
+      // Не делайте этого!
+      this.state = { color: props.color };
+    }
+    ```
+
+## Practice
+
+> Go to practice.js
+
+1. Creact a child component called `FormattedDate`, this component should take date in the state as a prop and instead of displaying `<p>The time now is {this.state.date.toLocaleTimeString()}</p>` in the `Clock` component move it to the `FormattedDate` component. And then replace that `<p></p>` tag with the new component you created `<FormattedDate date={} />`
