@@ -1,4 +1,4 @@
-# Lesson 1 - Component Rendering - Display state & props
+# Lesson 1 - Part 1 - Component Rendering - Display state & props
 
 ## Goal
 
