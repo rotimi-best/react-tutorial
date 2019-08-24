@@ -12,5 +12,3 @@
     - [ ] Rendering with a condition
     - [ ] Component Rendering Prevention
     - [ ] Rendering multiple components
-
-## Notes
