@@ -7,7 +7,6 @@ class Clock extends React.Component {
     };
   }
 
-  /* ==============================         USED     ========================== */
   // No argument
   // Called after mounted
   // Can use setState
@@ -32,21 +31,6 @@ class Clock extends React.Component {
   componentWillUnmount() {
     console.log("component will unmount");
   }
-
-  /* ============================       DO NOT USE (Deprecated)     ========================== */
-
-  // Should be called as UNSAFE_componentWillMount until version 17
-  // invoked just before mounting occurs before render
-  // no need to update state here, use the constructor instead
-  componentWillMount() {}
-
-  // Should now be call UNSAFE_componentWillReceiveProps until version 17
-  // invoked before a mounted component receives new props
-  componentWillReceiveProps(nextProps) {}
-
-  // Should be called UNSAFE_componentWillUpdate until version 17
-  // invoked just before rendering when new props or state are being received
-  componentWillUpdate(nextProps, nextState) {}
 
   handleClick = () => {
     this.setState({
