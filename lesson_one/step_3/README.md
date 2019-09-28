@@ -1,4 +1,4 @@
-# Lesson 1 - Part 2 - Component Updating - Lifecycle methods
+# Lesson 1 - Part 2 - Lifecycle methods
 
 ## Goal
 
