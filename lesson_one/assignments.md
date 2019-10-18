@@ -14,4 +14,4 @@
    ![display_data_from_api_demo](https://github.com/rotimi-best/react-tutorial/blob/master/lesson_one/assets/display_data_from_api_demo.jpg).
 
 6. Make a request to this [API](https://leadgen.ossystem.ua/api/dashboard), it will return an error. Make sure your application doesn't crash by using handling the error returned from the server. Console the error and show an error page similar to this:
-   ![error_page](https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwjUmeOAvqblAhWilIsKHfTQBckQjRx6BAgBEAQ&url=https%3A%2F%2Fgithub.com%2Fjanmisek%2Fember-error-handler&psig=AOvVaw1sUjnC1sHb60W-W06VtzVP&ust=1571511305731618)
+   ![error_page](https://raw.githubusercontent.com/janmisek/ember-error-handler/master/github/error-prod.png)
