@@ -13,5 +13,4 @@
 5. Make a `GET` request to this [API](https://jsonplaceholder.typicode.com/posts) and fetch a list of posts. Display each of this information similar to the image below. You can choose to style it and make it look better than this, but this is just an example of how the data should be presented in the page. Note: make sure you make the request as soon as the app is opened in the browser
    ![display_data_from_api_demo](https://raw.githubusercontent.com/rotimi-best/react-tutorial/master/lesson_one/assets/display_data_from_api_demo.jpg)
 
-6. Make a request to this [API](https://leadgen.ossystem.ua/api/dashboard), it will return an error. Make sure your application doesn't crash by using handling the error returned from the server. Console the error and show an error page similar to this:
-   ![error_page](https://raw.githubusercontent.com/janmisek/ember-error-handler/master/github/error-prod.png)
+6. Make a request to this [API](https://leadgen.ossystem.ua/api/dashboard), it will return an error. Make sure your application doesn't crash by using handling the error returned from the server. Console the error and show an error page similar to this:![error_page](https://raw.githubusercontent.com/janmisek/ember-error-handler/master/github/error-prod.png)
