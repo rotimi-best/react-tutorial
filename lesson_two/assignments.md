@@ -28,7 +28,7 @@
 
 8. In continuation of question 7, when the `score` value in the state gets to 10 then reset that value back to zero.
 
-9. Follow the instructions in this [codepen](https://codepen.io/RB_Projects/pen/xxxdZad)
+9. Follow the instructions in this [codepen](https://codepen.io/RB_Projects/pen/xxxdZad). Below is an example of how the result will look like
    ![Demo](https://raw.githubusercontent.com/rotimi-best/react-conditional-rendering/master/src/assets/user_list_if_admin.png)
 
 10. Follow the instructions in this [codepen](https://codepen.io/RB_Projects/pen/XWWRdWR)
