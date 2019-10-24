@@ -11,3 +11,24 @@
 4. From question 3, in the `<App />` component, add 3 buttons, the first button `<button>Only Dogs</button>` if clicked will show only dogs, the second button `<button>Only Cats</button>` if clicked will show only cats and the third button `<button>All Pets</button>` if clicked will show all pets.
 
 5. Follow the instructions in this [codepen](https://codepen.io/RB_Projects/pen/eYYWpyx)
+
+6. Create a component that takes a prop called `display` which is a boolean (its value is `true` or `false`). Depending on its value display `<p>You are in</p>`, if not display nothing.
+
+   > Important: Use the logical && operator for this
+
+7. Create a component called `ReportCard`. It has a value called `score` in its state. Something like this:
+
+   ```javascript
+   this.state = {
+     score: 0
+   };
+   ```
+
+   That component should have a button and every time it is clicked then the `score` should increase by 1. If the `score` is from 1 - 4, show on the screen 'Your result is poor', if from 5 - 7, show on the screen 'Your result is average', if from 8 - 10 show on the screen 'Your result is excellent'.
+
+8. In continuation of question 7, when the `score` value in the state gets to 10 then reset that value back to zero.
+
+9. Follow the instructions in this [codepen](https://codepen.io/RB_Projects/pen/xxxdZad)
+   ![Demo](https://raw.githubusercontent.com/rotimi-best/react-conditional-rendering/master/src/assets/user_list_if_admin.png)
+
+10. Follow the instructions in this [codepen](https://codepen.io/RB_Projects/pen/XWWRdWR)
